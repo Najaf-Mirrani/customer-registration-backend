@@ -26,3 +26,19 @@ This is a Node.js application using Express.js for API handling and MongoDB (via
 ```bash
 git clone https://github.com/Najaf-Mirrani/customer-registration-backend.git
 cd customer-registration-backend
+```
+
+### 2. Set Connection String in .env:
+```bash
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/your-database-name?retryWrites=true&w=majority
+```
+
+### 3. Install Packages:
+```bash
+npm i
+```
+
+### 4. run server:
+```bash
+node index.js
+```
