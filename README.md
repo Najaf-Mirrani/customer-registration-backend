@@ -21,9 +21,8 @@ This is a Node.js application using Express.js for API handling and MongoDB (via
 - [MongoDB](https://www.mongodb.com/try/download/community) or a MongoDB Atlas account for cloud-based DB
 
 ## Installation
-
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Najaf-Mirrani/customer-registration-backend.git
+cd customer-registration-backend
