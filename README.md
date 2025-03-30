@@ -3,7 +3,7 @@
 This is a Node.js application using Express.js for API handling and MongoDB (via Mongoose) for data storage. The app allows you to manage users with basic CRUD functionality, including the ability to create, update, and retrieve users. The app also includes data validation and error handling. The frontend repo for this app is https://github.com/Najaf-Mirrani/customer-registration-frontend
 
 ## Features
-- User management with fields such as `firstname`, `lastname`, `email`, `emiratesId`, `mobile`, and `cardnumber`.
+- User management with fields such as `firstname`, `lastname`, `email`, `emiratesId` and `mobile`.
 - MongoDB database with Mongoose schema for user validation.
 - POST route to create users.
 - Basic error handling and validation responses.
