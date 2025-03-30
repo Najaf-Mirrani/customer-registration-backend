@@ -1,6 +1,6 @@
 # Node.js Express App with MongoDB
 
-This is a Node.js application using Express.js for API handling and MongoDB (via Mongoose) for data storage. The app allows you to manage users with basic CRUD functionality, including the ability to create, update, and retrieve users. The app also includes data validation and error handling.
+This is a Node.js application using Express.js for API handling and MongoDB (via Mongoose) for data storage. The app allows you to manage users with basic CRUD functionality, including the ability to create, update, and retrieve users. The app also includes data validation and error handling. The frontend repo for this app is https://github.com/Najaf-Mirrani/customer-registration-frontend
 
 ## Features
 - User management with fields such as `firstname`, `lastname`, `email`, `emiratesId`, `mobile`, and `cardnumber`.
@@ -15,6 +15,11 @@ This is a Node.js application using Express.js for API handling and MongoDB (via
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB to work with data.
 - **UUID**: For generating unique user IDs.
 - **Axios**: For making HTTP requests to the backend.
+
+## Api Routes
+- /api/validate-user (get)
+- /api/users (post)
+- /api/users (get)
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) (version >= 14)
@@ -42,3 +47,5 @@ npm i
 ```bash
 node index.js
 ```
+
+now you can run http://localhost:5000/api/users on your chrome to check the list of users stored! Enjoy :)
